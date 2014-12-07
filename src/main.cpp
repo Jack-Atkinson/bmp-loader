@@ -100,8 +100,6 @@ int CppMain(int argc, char *argv[])
   inputimage.index(2, 2)[BLUE] = 255;
   inputimage.index(2, 2)[GREEN] = 255;
   inputimage.index(2, 2)[RED] = 255;
-
-  inputimage.index(0, 0) = BGR(127, 127, 127);
   
   for (int i = 0; i < height; i++)
     for (int j = 0; j < width; j++)
